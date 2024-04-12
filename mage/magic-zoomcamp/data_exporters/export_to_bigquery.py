@@ -16,7 +16,7 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
 
     Docs: https://docs.mage.ai/design/data-loading#bigquery
     """
-    table_id = 'electricvehicles-420015.electric_vehicles.united_states'
+    table_id = 'electricvehicles-420015.electric_vehicles.ev_us'
     config_path = path.join(get_repo_path(), 'io_config.yaml')
     config_profile = 'default'
 

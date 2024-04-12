@@ -7,7 +7,7 @@ if 'test' not in globals():
 @transformer
 def transform(data, *args, **kwargs):
     
-    data = data.rename(columns={'vin_(1-10)':'vin'})
+    data = data.rename(columns={'vin_(1-10)':'vin', "clean_alternative_fuel_vehicle_(cafv)_eligibility":"clean_alt_fuel_veh_eligibility"})
 
     return data
 

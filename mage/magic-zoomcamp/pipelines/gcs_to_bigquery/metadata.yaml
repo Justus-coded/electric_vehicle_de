@@ -45,7 +45,7 @@ blocks:
   language: python
   name: export_to_bigquery
   retry_config: null
-  status: failed
+  status: executed
   timeout: null
   type: data_exporter
   upstream_blocks:
