@@ -1,0 +1,42 @@
+version: 2
+
+models:
+  - name: state_ev
+    description: ""
+    columns:
+      - name: state
+        data_type: string
+        description: ""
+
+      - name: city
+        data_type: string
+        description: ""
+
+      - name: no_of_cars
+        data_type: int64
+        description: ""
+
+  - name: make_model_ev
+    description: ""
+    columns:
+  - name: make_ev
+    description: ""
+    columns:
+      - name: make
+        data_type: string
+        description: ""
+
+      - name: no_of_cars
+        data_type: int64
+        description: ""
+
+  - name: electric_hybrid
+    description: ""
+    columns:
+      - name: electric_vehicle_type
+        data_type: string
+        description: ""
+
+      - name: no_of_cars
+        data_type: int64
+        description: ""

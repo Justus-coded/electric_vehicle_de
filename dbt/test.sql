@@ -1,0 +1,1 @@
+SELECT * FROM `electricvehicles-420015.electric_vehicles.ev_us` LIMIT 10
