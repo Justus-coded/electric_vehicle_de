@@ -3,63 +3,63 @@ blocks:
   color: null
   configuration: {}
   downstream_blocks:
-  - fill_in_missing_values
+  - transform_data
   executor_config: null
   executor_type: local_python
-  has_callback: null
+  has_callback: false
   language: python
-  name: load_titanic
+  name: load_api
   retry_config: null
   status: executed
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: load_titanic
+  uuid: load_api
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
   downstream_blocks:
-  - export_titanic_clean
+  - export_data
   executor_config: null
   executor_type: local_python
-  has_callback: null
+  has_callback: false
   language: python
-  name: fill_in_missing_values
+  name: transform_data
   retry_config: null
   status: executed
   timeout: null
   type: transformer
   upstream_blocks:
-  - load_titanic
-  uuid: fill_in_missing_values
+  - load_api
+  uuid: transform_data
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
-  has_callback: null
+  has_callback: false
   language: python
-  name: export_titanic_clean
+  name: export_data
   retry_config: null
   status: executed
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - fill_in_missing_values
-  uuid: export_titanic_clean
+  - transform_data
+  uuid: export_data
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
 conditionals: []
-created_at: null
+created_at: '2024-04-11 20:39:33.057382+00:00'
 data_integration: null
 description: null
 executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: example_pipeline
+name: data_to_gcs
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -69,6 +69,6 @@ settings:
 spark_config: {}
 tags: []
 type: python
-uuid: example_pipeline
+uuid: data_to_gcs
 variables_dir: /home/src/mage_data/magic-zoomcamp
 widgets: []

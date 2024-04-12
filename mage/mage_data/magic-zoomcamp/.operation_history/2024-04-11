@@ -1,1 +1,2 @@
 {"operation": "create", "resource": {"type": "pipeline", "uuid": "test"}, "timestamp": 1712865680, "user": null}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "data_to_gcs"}, "timestamp": 1712867973, "user": null}
