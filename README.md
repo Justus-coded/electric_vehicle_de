@@ -82,7 +82,6 @@ This project aims to explore and gain insights into the use of electric vehicles
 
 ### Dashboard Creation
 
-### Looker Studio Setup
 1. **Access Looker Studio**
    - Go to [Looker Studio](https://lookerstudio.google.com).
 
