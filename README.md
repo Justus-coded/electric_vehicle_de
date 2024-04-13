@@ -94,8 +94,8 @@ This project aims to explore and gain insights into the use of electric vehicles
    - Design your dashboard in Looker Studio.
    - Include relevant visualizations and insights.
 
-4. **Dashboard Image**
-   ![Electric Vehicle Dashboard](https://lookerstudio.google.com/embed/reporting/fb76d5d5-193d-46b9-8b06-b75b885f9b03/page/RpiwD)
+4. **[Electric Vehicle Dashboard](https://lookerstudio.google.com/embed/reporting/fb76d5d5-193d-46b9-8b06-b75b885f9b03/page/RpiwD)**
+   ![Dashboard](ev_dashboard.PNG)
 
 
 
