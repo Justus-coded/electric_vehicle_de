@@ -58,15 +58,54 @@ This project aims to explore and gain insights into the use of electric vehicles
 3. **Pipeline Creation**
    - In Mage, create a pipeline to load the data into Google Cloud Storage and BigQuery.
 
+### Data Transformation
+
+#### dbt Cloud Setup
+1. **Create a New Project in dbt**
+   - Sign in to dbt Cloud and create a new project.
+   - Add a project name and select BigQuery as the data source.
+   - Include the service account keys for authentication.
+   - Set up a repository to run your transformations and create the project.
+
+2. **Initialize dbt Project**
+   - Click 'initialize dbt project' and then 'commit and sync'.
+
+3. **Model Creation and Transformation**
+   - Create your SQL files in the models directory for transformation.
+   - Perform data transformation using dbt:
+     ```bash
+     dbt run
+     ```
+
+4. **Resources**
+   - [dbt Documentation for BigQuery](https://docs.getdbt.com/guides/bigquery?step=8)
+
+### Dashboard Creation
+
+### Looker Studio Setup
+1. **Access Looker Studio**
+   - Go to [Looker Studio](https://lookerstudio.google.com).
+
+2. **Create a New Report**
+   - Create a new report in Looker Studio.
+   - Connect to BigQuery as the data source.
+   - Select datasets to use for building the dashboard.
+
+3. **Dashboard Design**
+   - Design your dashboard in Looker Studio.
+   - Include relevant visualizations and insights.
+
+4. **Dashboard Image**
+   - Upload the image of your dashboard to a GitHub repository.
+
+
 ## Resources
 - [Google Cloud Platform](https://cloud.google.com/)
 - [Terraform Documentation](https://learn.hashicorp.com/terraform)
 - [Mage Documentation](https://docs.mage.ml/)
 - [Docker Documentation](https://docs.docker.com/)
+- [dbt Documentation](https://docs.getdbt.com/)
+- [Looker Documentation](https://docs.looker.com/)
 - [Data.gov](https://www.data.gov/) - Source of the Electric Vehicle Population Data
 
-## Contributors
-- [Your Name/Team Name]
 
-## License
-This project is licensed under the [MIT License](LICENSE).
