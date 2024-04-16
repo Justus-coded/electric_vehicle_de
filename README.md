@@ -3,6 +3,8 @@
 ## Overview
 This project is my submission for the Data Engineering Zoomcamp 2024 Capstone. The aim of the project is to explore and gain insights into the use of electric vehicles (EVs) in the United States. The dataset utilized for this project was obtained from [Data.gov](https://catalog.data.gov/dataset/electric-vehicle-population-data), more information about the data can be found [here](https://www.opendatanetwork.com/dataset).
 
+## Project Architecture
+ ![Project Architecture](project architecture.PNG)
 ## Project Workflow
 
 ### Cloud Infrastructure Setup
